@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build:css": "postcss input.css --dir dest -w",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -14,6 +15,7 @@
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
     "postcss-nested": "^6.0.0",
+    "postcss-preset-env": "^7.8.3",
     "sass": "^1.57.1",
     "vite": "^4.0.0"
   }

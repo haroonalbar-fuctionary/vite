@@ -1,5 +1,13 @@
 body{
     padding: 0;
     margin: 0;
-    
+
+    & p{
+        color: red;
+    }
+
+}
+h1{
+    font-weight: 900;
+    color: blue;
 }
