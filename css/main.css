@@ -1,0 +1,59 @@
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: "Poppins", "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 0 5em;
+  max-width: 300px;
+  border-radius: 5em;
+}
+.card__img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+.card__content {
+  padding: 1.4em;
+  background-color: white;
+}
+.card__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.card__item {
+  padding: 0.3em 0.5em;
+  background: rgba(211, 211, 211, 0.5);
+  border-radius: 0.3em;
+  font-size: 0.85em;
+}
+.card__item--active {
+  background: rgba(190, 189, 189, 0.7);
+  font-weight: bold;
+}
+.card__link {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(4, 172, 133);
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+.card__link:hover {
+  background-color: rgb(5, 177, 177);
+}
+
+/*# sourceMappingURL=main.css.map */

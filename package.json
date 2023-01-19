@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:css": "postcss input.css --dir dest -w",
+    "compile:sass": "sass sass/main.scss:css/main.css -w",
+    "build:css": "postcss css/main.css --dir dest -w",
+    "cssbuild": "npm-run-all compile:sass build:css",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,6 +14,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
     "postcss-nested": "^6.0.0",
