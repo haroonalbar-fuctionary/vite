@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-nested": "^6.0.0",
     "sass": "^1.57.1",
     "vite": "^4.0.0"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "postcss-nested": "^6.0.0"
   }
 }
