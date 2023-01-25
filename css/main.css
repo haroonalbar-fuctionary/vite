@@ -53,7 +53,7 @@ body {
   margin-top: 0.5em;
 }
 .card__link:hover {
-  background-color: rgb(5, 177, 177);
+  background-color: red;
 }
 
 /*# sourceMappingURL=main.css.map */

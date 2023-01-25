@@ -1,3 +1,5 @@
+@import "var";
+
 body,html{
     margin: 0;
     height: 100vh;
@@ -8,6 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    // display: grid;
+    // place-items: center;
 }
 .card{
     padding: 0 5em;
@@ -56,7 +60,8 @@ body{
         margin-top: .5em;
 
         &:hover{
-        background-color: rgb(5, 177, 177);
+        // background-color: rgb(5, 177, 177);
+        background-color: $bg-color;
             
         }
     }

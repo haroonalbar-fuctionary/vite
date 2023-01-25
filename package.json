@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "sass sass/main.scss:css/main.css -w",
     "build:css": "postcss css/main.css --dir dest -w",
-    "cssbuild": "npm-run-all compile:sass build:css",
+    "cssbuild": "npm-run-all build:css compile:sass",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
